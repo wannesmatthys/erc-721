@@ -15,7 +15,7 @@ module.exports = {
             timeoutBlocks: 200,
             skipDryRun: true,
             networkCheckTimeout: 10000000,
-            from: "0x0D3173BC085002501BF80000cEE5b2E2624A9060",
+            from: process.env.FROM_WALLET_ADDRESS,
         },
     },
     contracts_directory: "./contracts",
